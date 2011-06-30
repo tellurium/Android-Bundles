@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[<${1:LinearLayout} 
+  android:layout_width="${2:fill_parent}" 
+  android:layout_height="${3:fill_parent}">
+  $4
+</$1>]]></content>
+    <tabTrigger>andtag</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Common Template for adding a ui tags in android xml</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[<activity android:name="${1:test}" android:label="@string/${2:app_name}">
+	<intent-filter>
+    	<action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.TEST" />
+    </intent-filter>
+</activity>]]></content>
+    <tabTrigger>testactivity</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Add a TEST activity in AndroidMenifest.xml file</description>
+</snippet>

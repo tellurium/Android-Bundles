@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[@Override
+public void onCreate(Bundle saveInstanceState) {
+	super.onCreate(saveInstanceState);
+	$0			
+}]]></content>
+    <tabTrigger>oncreate</tabTrigger>
+    <scope>source.java</scope>
+    <description>Template of onCreate method</description>
+</snippet>
