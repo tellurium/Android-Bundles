@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[android:${1:text}="${2:value}"]]></content>
+    <tabTrigger>and</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Androiod tags template</description>
+</snippet>

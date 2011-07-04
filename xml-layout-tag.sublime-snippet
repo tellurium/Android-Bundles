@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[android:layout_${1:width}="${2:wrap_content}"]]></content>
+    <tabTrigger>andlay</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Android layout tag snippet</description>
+</snippet>
