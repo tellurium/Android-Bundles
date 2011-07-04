@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[package ${2:cn.the.moduletest}.${3:tests};
+
+import android.app.Activity;
+import android.os.Bundle;
+
+import $2.R;
+
+public class ${1:${TM_FILENAME/(.*?)(\..+)/$1/}} extends Activity {
+	
+	@Override
+	public void	onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		
+		$0//setContentView(R.layout.main);
+		
+	}
+}]]></content>
+    <tabTrigger>activity</tabTrigger>
+    <scope>source.java</scope>
+    <description>Android ACtivity template</description>
+</snippet>

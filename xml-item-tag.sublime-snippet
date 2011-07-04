@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[<item type="id" name="${1:name}">${2:false}</item>]]></content>
+    <tabTrigger>anditem</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Android item tag snippet</description>
+</snippet>
